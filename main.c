@@ -13,5 +13,10 @@ int main()
  int i,f=1,n;
  printf("entre un number ");
   scanf("%d",&n);
-  printf("factorial %d est %d",n,fact(n));
+
+   for(i=1;i<=n;i++){
+      f=f*i;
+  }
+  printf("factorial %d est %d\n",n,f);
+  printf("( en foction ) factorial %d est %d",n,fact(n));
 }
